@@ -1,0 +1,267 @@
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Transparent Navbar */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+header.scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+header nav ul li a:hover {
+  color: #ffd700;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(
+    136deg,
+    rgb(68, 132, 206),
+    rgb(26, 215, 192),
+    rgb(255, 155, 17),
+    rgb(155, 89, 182),
+    rgb(255, 127, 127),
+    rgb(236, 240, 241)
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  animation: gradientAnimation 15s ease infinite;
+  background-size: 1200% 1200%;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-content .lead {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: white;
+}
+
+.social-links a:hover {
+  color: #ffd700;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
+
+/* Gradient Animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+/* Section Styles */
+section {
+  padding: 0;  /* Remove padding to eliminate the breaks */
+  margin: 0;   /* Remove margins between sections */
+  background: white;
+  border-radius: 0; /* No border radius for a seamless transition */
+}
+
+section h2 {
+  color: #444;
+}
+
+footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+/* About Me Section */
+#aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Full viewport height */
+  padding: 0; /* Remove padding for seamless layout */
+  background-color: #fff; /* Background color for the section */
+  margin-top: 0; /* Ensure no margin above */
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+  gap: 5%; /* Space between image and text */
+}
+
+.about-image {
+  width: 300px; /* Fixed size for the image */
+  height: 300px;
+  border-radius: 50%; /* Make it circular */
+  object-fit: cover; /* Ensures the image doesn't distort */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.about-text h2 {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.about-text p {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.8;
+  text-align: center;
+}
+/* Centering content in the About Me Section */
+.about-text {
+  flex: 1;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center the text */
+}
+
+.resume-btn {
+  padding: 12px 25px;
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  margin-top: 20px; /* Add some space between the text and the button */
+}
+
+.resume-btn:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.resume-btn:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(12, 12, 12, 0.5);
+}
+/* Experience Section Styles */
+#experience {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#experience h2 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column; /* Stack the rows vertically */
+  gap: 30px; /* Space between rows */
+}
+
+.experience-row {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.experience-item {
+  background-color: transparent;
+  padding: 20px;
+  width: 400px; /* Adjust width for better spacing */
+  text-align: center;
+  margin-bottom: 20px; /* Optional: Add space between rows */
+}
+
+.company-logo {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.experience-item p {
+  color: #555;
+  margin: 5px 0;
+}
