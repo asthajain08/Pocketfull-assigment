@@ -41,7 +41,7 @@ const Page = () => {
           <h1 className="display-1">Astha Jain</h1>
           <p className="lead">Passionate about changing the world with technology.</p>
           <div className="social-links">
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Mohd-shahid-iqbal" aria-label="My GitHub">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/asthajain08" aria-label="My GitHub">
               <i className="fab fa-github fa-3x socialicons"></i>
             </a>
             <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com" aria-label="My Instagram">
@@ -120,7 +120,7 @@ const Page = () => {
       <h3 className="project-title">MyPortfolio</h3>
       <div className="project-links">
         <a
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio.git"
+          href="https://github.com/asthajain08"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-small"
@@ -129,7 +129,7 @@ const Page = () => {
           Clone project
         </a>
         <a
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio"
+          href="https://github.com/asthajain08"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-small"
@@ -142,7 +142,7 @@ const Page = () => {
         <strong>Languages:</strong>
         <a
           className="card-link"
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio/search?l=JavaScript"
+          href="https://github.com/asthajain08"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -150,7 +150,7 @@ const Page = () => {
         </a>
         <a
           className="card-link"
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio/search?l=SCSS"
+          href="https://github.com/asthajain08"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -158,7 +158,7 @@ const Page = () => {
         </a>
         <a
           className="card-link"
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio/search?l=HTML"
+          href="https://github.com/asthajain08"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -167,7 +167,7 @@ const Page = () => {
       </div>
 
       <div className="project-links">
-        <a href="https://github.com/Mohd-shahid-iqbal/myportfolio/stargazers"
+        <a href="https://github.com/asthajain08"
           target="_blank"
           className="btn-small">
           <span className="text-dark card-link mr-4">
@@ -180,10 +180,10 @@ const Page = () => {
 
     {/* Second Project Card */}
     <div className="project-card">
-      <h3 className="project-title">MyPortfolio</h3>
+      <h3 className="project-title">mecall</h3>
       <div className="project-links">
         <a
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio.git"
+          href="https://github.com/asthajain08/mecall.git"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-small"
@@ -192,7 +192,7 @@ const Page = () => {
           Clone project
         </a>
         <a
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio"
+          href="https://github.com/asthajain08/mecall.git"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-small"
@@ -205,7 +205,7 @@ const Page = () => {
         <strong>Languages:</strong>
         <a
           className="card-link"
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio/search?l=JavaScript"
+          href="https://github.com/asthajain08/mecall.git"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -213,7 +213,7 @@ const Page = () => {
         </a>
         <a
           className="card-link"
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio/search?l=SCSS"
+          href="https://github.com/asthajain08/mecall.git"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -221,7 +221,7 @@ const Page = () => {
         </a>
         <a
           className="card-link"
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio/search?l=HTML"
+          href="https://github.com/asthajain08/mecall.git"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -230,7 +230,7 @@ const Page = () => {
       </div>
 
       <div className="project-links">
-        <a href="https://github.com/Mohd-shahid-iqbal/myportfolio/stargazers"
+        <a href="https://github.com/asthajain08/mecall.git"
           target="_blank"
           className="btn-small">
           <span className="text-dark card-link mr-4">
@@ -243,10 +243,10 @@ const Page = () => {
 
     {/* Third Project Card */}
     <div className="project-card">
-      <h3 className="project-title">MyPortfolio</h3>
+      <h3 className="project-title">College website</h3>
       <div className="project-links">
         <a
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio.git"
+          href="https://github.com/asthajain08/tpcon-website.git"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-small"
@@ -255,7 +255,7 @@ const Page = () => {
           Clone project
         </a>
         <a
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio"
+          href="https://github.com/asthajain08/tpcon-website.git"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-small"
@@ -268,7 +268,7 @@ const Page = () => {
         <strong>Languages:</strong>
         <a
           className="card-link"
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio/search?l=JavaScript"
+          href="https://github.com/asthajain08/tpcon-website.git"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -276,7 +276,7 @@ const Page = () => {
         </a>
         <a
           className="card-link"
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio/search?l=SCSS"
+          href="https://github.com/asthajain08/tpcon-website.git"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -284,7 +284,7 @@ const Page = () => {
         </a>
         <a
           className="card-link"
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio/search?l=HTML"
+          href="https://github.com/asthajain08/tpcon-website.git"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -293,7 +293,7 @@ const Page = () => {
       </div>
 
       <div className="project-links">
-        <a href="https://github.com/Mohd-shahid-iqbal/myportfolio/stargazers"
+        <a href="https://github.com/asthajain08/tpcon-website.git"
           target="_blank"
           className="btn-small">
           <span className="text-dark card-link mr-4">
@@ -306,10 +306,10 @@ const Page = () => {
 
     {/* Fourth Project Card */}
     <div className="project-card">
-      <h3 className="project-title">MyPortfolio</h3>
+      <h3 className="project-title">fileshare</h3>
       <div className="project-links">
         <a
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio.git"
+          href="https://github.com/asthajain08/fileshare"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-small"
@@ -318,7 +318,7 @@ const Page = () => {
           Clone project
         </a>
         <a
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio"
+          href="https://github.com/asthajain08/fileshare"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-small"
@@ -331,7 +331,7 @@ const Page = () => {
         <strong>Languages:</strong>
         <a
           className="card-link"
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio/search?l=JavaScript"
+          href="https://github.com/asthajain08/fileshare"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -339,7 +339,7 @@ const Page = () => {
         </a>
         <a
           className="card-link"
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio/search?l=SCSS"
+          href="https://github.com/asthajain08/fileshare"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -347,7 +347,7 @@ const Page = () => {
         </a>
         <a
           className="card-link"
-          href="https://github.com/Mohd-shahid-iqbal/myportfolio/search?l=HTML"
+          href="https://github.com/asthajain08/fileshare"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -356,7 +356,7 @@ const Page = () => {
       </div>
 
       <div className="project-links">
-        <a href="https://github.com/Mohd-shahid-iqbal/myportfolio/stargazers"
+        <a href="https://github.com/asthajain08/fileshare"
           target="_blank"
           className="btn-small">
           <span className="text-dark card-link mr-4">
