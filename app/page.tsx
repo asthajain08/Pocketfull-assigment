@@ -438,8 +438,8 @@ const Page = () => {
           </a>
         </div>
       </footer>
+     
 
-      <button className="scroll-to-top" onClick="scrollToTop()">↑</button>
     </>
   );
 };
