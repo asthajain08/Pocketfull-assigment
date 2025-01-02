@@ -54,18 +54,11 @@ const Page = () => {
             >
               <i className="fab fa-github fa-3x socialicons"></i>
             </a>
+            
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.facebook.com/profile.php?id=100002142394297"
-              aria-label="My Facebook"
-            >
-              <i className="fab fa-facebook fa-3x socialicons"></i>
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.instagram.com/shahid27945/"
+              href="https://www.instagram.com"
               aria-label="My Instagram"
             >
               <i className="fab fa-instagram fa-3x socialicons"></i>
@@ -73,7 +66,7 @@ const Page = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/mohd-shahid-iqbal-2b690713b/"
+              href="https://www.linkedin.com"
               aria-label="My LinkedIn"
             >
               <i className="fab fa-linkedin fa-3x socialicons"></i>
@@ -167,7 +160,7 @@ const Page = () => {
         </div>
       </section>
 
-      <section id="recent-projects">
+      <section id="projects">
   <h2>Recent Projects</h2>
 
   <div className="projects-container">
@@ -424,24 +417,21 @@ const Page = () => {
   </div>
 </section>
 
+{/* Leadership Section */}
+<section id="leadership">
+  <div className="container py-5">
+    <h2 className="display-4 pb-5 text-center">Leadership</h2>
+    <div className="row justify-content-center"> {/* Added justify-content-center to center the content */}
+      <div className="col-md-8"> {/* Set width to 8 columns to ensure the text is properly aligned */}
+        <p className="lead text-center"> {/* Added text-center to center the paragraph text */}
+          As a React developer with leadership experience, I bring technical expertise, project management skills, and strong communication abilities to the table. I have a proven track record of building large-scale applications, optimizing code for performance, and implementing best practices. Additionally, I have experience leading teams and projects, creating and maintaining project plans, managing timelines and budgets, and ensuring timely delivery of high-quality work. I excel at communicating effectively with team members, stakeholders, and clients, both verbally and in writing, and am a skilled listener who can provide clear and constructive feedback. I am also passionate about mentoring and training other developers to help them develop their skills and achieve their goals. With my ability to solve complex technical problems and think creatively, I am always up-to-date with the latest developments in React and related technologies, and am able to innovate and inspire a positive, collaborative work environment.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
- {/* Leadership Section */}
- <section id="leadership">
-        <div className="container py-5">
-          <h2 className="display-4 pb-5 text-center">Leadership</h2>
-          <div className="row">
-            <div className="col-md-6">
-              <p className="lead">
-                As a React developer with leadership experience, I bring technical expertise, project management skills, and strong communication abilities to the table. I have a proven track record of building large-scale applications, optimizing code for performance, and implementing best practices. Additionally, I have experience leading teams and projects, creating and maintaining project plans, managing timelines and budgets, and ensuring timely delivery of high-quality work. I excel at communicating effectively with team members, stakeholders, and clients, both verbally and in writing, and am a skilled listener who can provide clear and constructive feedback. I am also passionate about mentoring and training other developers to help them develop their skills and achieve their goals. With my ability to solve complex technical problems and think creatively, I am always up-to-date with the latest developments in React and related technologies, and am able to innovate and inspire a positive, collaborative work environment.
-              </p>
-            </div>
 
-            {/* Carousel Slider */}
-            
-        
-          </div>
-        </div>
-      </section>
      
 
       <section id="skills" className="skills">
@@ -493,6 +483,27 @@ const Page = () => {
         )}
       </div>
     </section>
+
+    <footer>
+  <div className="contact-info">
+    <h3>Get In Touch</h3>
+    <p>I am currently looking for full-time React Developer/Frontend Developer
+       opportunities! If you know of any positions available, if you have any 
+       questions, or if you just want to say hi, please feel free to email me at,  
+       <a href="asthajain497@gmail.com"> asthajain497@gmail.com</a>.</p>
+  </div>
+  <div className="social-links">
+    <a href="https://github.com/asthajain08" target="_blank" aria-label="GitHub">
+      <i className="fab fa-github"></i>
+    </a>
+    <a href="www.linkedin.com/in/astha-jain-881399201" target="_blank" aria-label="LinkedIn">
+      <i className="fab fa-linkedin"></i>
+    </a>
+  </div>
+</footer>
+
+<button className="scroll-to-top" onClick="scrollToTop()">↑</button>
+
     </>
   );
 }

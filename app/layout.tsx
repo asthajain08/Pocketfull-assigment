@@ -39,8 +39,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <nav>
             <ul>
               <li><Link href="#aboutme">About</Link></li>
+              <li><Link href="#experience">Experience</Link></li>
               <li><Link href="#projects">Projects</Link></li>
-              <li><Link href="#resume">Resume</Link></li>
+              <li><Link href="#leadership">Leadership</Link></li>
               <li><Link href="#skills">Skills</Link></li>
             </ul>
           </nav>
@@ -53,7 +54,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
         {/* Footer */}
         <footer>
-          <p>© 2024 Mohd Shahid Iqbal. All rights reserved.</p>
+          <p>© 2024 Astha Jain. All rights reserved.</p>
         </footer>
       </body>
     </html>
